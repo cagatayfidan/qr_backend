@@ -1,0 +1,15 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": ""
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Trace",
+      "Microsoft": "Information"
+    }
+  },
+  "Jwt": {
+    "Key": "some_big_key_value_here_secret",
+    "Issuer": "http://localhost:5000/"
+  }
+}
